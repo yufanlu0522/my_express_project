@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="572A5AEE-CAA1-9AAB-3F5F-7ED4ACB490B5" name="Rent">
+<createdBy>luyufan</createdBy>
+<createdTime>2023-01-24 18:09:13 UTC</createdTime>
+<ownerDesignName>HW1</ownerDesignName>
+<engineerTo>
+<item key="E378CDB8-AB41-C79F-5C67-E242AA56CDF4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="rental_number" id="A7B90B3A-06D1-12A1-8CC7-D6D3D9804753">
+<createdBy>luyufan</createdBy>
+<createdTime>2023-01-24 19:19:06 UTC</createdTime>
+<ownerDesignName>HW1</ownerDesignName>
+<engineerTo>
+<item key="E378CDB8-AB41-C79F-5C67-E242AA56CDF4" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A1919691-784D-F22A-7806-A9841223C8F1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="full_name" id="92A96634-AB0D-102D-FF91-64DAED2829A4">
+<createdBy>luyufan</createdBy>
+<createdTime>2023-01-24 19:19:45 UTC</createdTime>
+<ownerDesignName>HW1</ownerDesignName>
+<engineerTo>
+<item key="E378CDB8-AB41-C79F-5C67-E242AA56CDF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>6FFCE21E-E880-26DA-0657-A27A1BCD33D6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="title" id="A96A715D-0A06-433C-A615-20FF9FA10340">
+<createdBy>luyufan</createdBy>
+<createdTime>2023-01-24 19:20:19 UTC</createdTime>
+<ownerDesignName>HW1</ownerDesignName>
+<engineerTo>
+<item key="E378CDB8-AB41-C79F-5C67-E242AA56CDF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C5B85E42-AC7A-C877-D706-70B138BF2CD6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="daily_rental" id="7E9FBF3B-4888-58B3-1A9C-049FA1CCDA15">
+<createdBy>luyufan</createdBy>
+<createdTime>2023-01-24 19:20:25 UTC</createdTime>
+<ownerDesignName>HW1</ownerDesignName>
+<engineerTo>
+<item key="E378CDB8-AB41-C79F-5C67-E242AA56CDF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="out_date" id="FF9360F6-1D74-6FFA-F784-EFB348F22A13">
+<createdBy>luyufan</createdBy>
+<createdTime>2023-01-24 19:20:48 UTC</createdTime>
+<ownerDesignName>HW1</ownerDesignName>
+<engineerTo>
+<item key="E378CDB8-AB41-C79F-5C67-E242AA56CDF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="return_date" id="1EB7BE9A-EDA4-6B92-66FA-7F3F256F2B90">
+<createdBy>luyufan</createdBy>
+<createdTime>2023-01-24 19:21:07 UTC</createdTime>
+<ownerDesignName>HW1</ownerDesignName>
+<engineerTo>
+<item key="E378CDB8-AB41-C79F-5C67-E242AA56CDF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="member_number" id="E132C49E-AC79-598F-1EED-5B2501E8068F">
+<createdBy>luyufan</createdBy>
+<createdTime>2023-01-24 19:28:01 UTC</createdTime>
+<generatorID>5527DBAC-46A1-2BBF-FF31-C55B1C843D01</generatorID>
+<ownerDesignName>HW1</ownerDesignName>
+<engineerTo>
+<item key="E378CDB8-AB41-C79F-5C67-E242AA56CDF4" value="true"/>
+</engineerTo>
+<referedAttribute>A6E685E5-8598-B173-680B-61DD87C82F30</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A1919691-784D-F22A-7806-A9841223C8F1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DVD_number" id="45F24989-661E-E309-62E1-3BB525233EFB">
+<createdBy>luyufan</createdBy>
+<createdTime>2023-01-25 00:54:39 UTC</createdTime>
+<generatorID>8EE1DAB4-BDC6-1690-379A-1BE894A69962</generatorID>
+<ownerDesignName>HW1</ownerDesignName>
+<engineerTo>
+<item key="E378CDB8-AB41-C79F-5C67-E242AA56CDF4" value="true"/>
+</engineerTo>
+<referedAttribute>B436636D-C808-DB82-D749-52B3785D20BC</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A1919691-784D-F22A-7806-A9841223C8F1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="38C62C53-B470-96EB-A18D-A0FABAF80C08" name="Rent PK">
+<createdBy>luyufan</createdBy>
+<createdTime>2023-01-24 19:19:16 UTC</createdTime>
+<ownerDesignName>HW1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E378CDB8-AB41-C79F-5C67-E242AA56CDF4" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A7B90B3A-06D1-12A1-8CC7-D6D3D9804753</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F6D4E525-C79B-E0AF-07A1-F41FD1DE0F61" name="Branch">
+<createdBy>luyufan</createdBy>
+<createdTime>2023-01-25 00:58:50 UTC</createdTime>
+<generatorID>0A1CBEED-5899-8897-F954-17EADBE5CCC3</generatorID>
+<ownerDesignName>HW1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="branch_number" id="5F090BDF-B951-6B29-9B5D-778F3ED22691">
+<createdBy>luyufan</createdBy>
+<createdTime>2023-01-25 00:58:50 UTC</createdTime>
+<generatorID>1258C934-1AA4-166D-8830-C87C189AE026</generatorID>
+<ownerDesignName>HW1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A1919691-784D-F22A-7806-A9841223C8F1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="street" id="ACE08E1E-F714-52AD-17C4-F54C6E2C7D9F">
+<createdBy>luyufan</createdBy>
+<createdTime>2023-01-25 00:58:50 UTC</createdTime>
+<generatorID>36927EE2-4574-27EC-C6F6-474D387A54C9</generatorID>
+<ownerDesignName>HW1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>AB04D8D9-95E3-2C6C-1398-1C1E605EE4C9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="city" id="198532EC-DB4A-CFAE-A097-42711B2F5B6F">
+<createdBy>luyufan</createdBy>
+<createdTime>2023-01-25 00:58:50 UTC</createdTime>
+<generatorID>CAF90D8D-CFF9-9CC4-CE82-09454EF4DA6C</generatorID>
+<ownerDesignName>HW1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>AA5C0CC1-802B-1739-0E4E-349375EF3A7F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="state" id="60CF896C-3A7A-4B74-E5C9-EF39C99B61B0">
+<createdBy>luyufan</createdBy>
+<createdTime>2023-01-25 00:58:50 UTC</createdTime>
+<generatorID>DB5DC44E-E644-CF6C-AAC4-9961DEDF7EB7</generatorID>
+<ownerDesignName>HW1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1EDF6D1E-9752-CC7D-D1D7-43BDF217DD7F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="zip_code" id="5C6FD7C8-A915-DE58-543B-90E0AF0F81B3">
+<createdBy>luyufan</createdBy>
+<createdTime>2023-01-25 00:58:50 UTC</createdTime>
+<generatorID>322A30BA-5965-C45F-4746-302DA9E0B1A8</generatorID>
+<ownerDesignName>HW1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>087CD7A3-B5A2-7ADE-C140-F51392EFAEA2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telephone_number" id="F32C2228-7A16-8800-B815-CBD223CBE258">
+<createdBy>luyufan</createdBy>
+<createdTime>2023-01-25 00:58:50 UTC</createdTime>
+<generatorID>5BEDE822-3961-7635-B8C6-50A302C1C1A4</generatorID>
+<ownerDesignName>HW1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2DD1A43D-8927-CD18-5F6E-33CE24DBB0E9" name="Branch_PK">
+<createdBy>luyufan</createdBy>
+<createdTime>2023-01-25 00:58:50 UTC</createdTime>
+<generatorID>252043DC-F575-BA34-8AE0-845059A908AF</generatorID>
+<ownerDesignName>HW1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F090BDF-B951-6B29-9B5D-778F3ED22691"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
